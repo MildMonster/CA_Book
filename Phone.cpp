@@ -5,6 +5,7 @@
 #include<windows.h>
 #define M 100
 #define N 26
+
 struct msg
 {
 	char xh[10];
@@ -64,7 +65,7 @@ ListEmpty(LinkList *H)                                 //判断单链表是否为空,返回
 	return(H->next==NULL);
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-int DispList(LinkList *H)                                                    //输出单链表H(输出所有的信息)
+int DispList(LinkList *H)                                                    //输出单链表H(输出所有的信息.)
 {
 	int i;
 	if(ListEmpty(H))
